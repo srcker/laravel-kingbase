@@ -1,0 +1,23 @@
+{
+    "name": "srcker/laravel-kingbase",
+    "description": "Laravel Kingbase driver support (kdb PDO)",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "srcker\\Kingbase\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.2",
+        "laravel/framework": "^11.0",
+        "ext-pdo": "*"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "srcker\\Kingbase\\KingbaseServiceProvider"
+            ]
+        }
+    }
+}
